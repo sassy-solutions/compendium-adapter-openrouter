@@ -12,7 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Adapters\Compendium.Adapters.OpenRouter\Compendium.Adapters.OpenRouter.csproj" />
+    <ProjectReference Include="..\..\..\src\Compendium.Adapters.OpenRouter\Compendium.Adapters.OpenRouter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Framework deps used directly by tests. -->
+    <PackageReference Include="Compendium.Core" />
+    <PackageReference Include="Compendium.Abstractions.AI" />
   </ItemGroup>
 
   <ItemGroup>
