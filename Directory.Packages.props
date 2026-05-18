@@ -6,8 +6,8 @@
   <!-- Compendium framework — pin to a published NuGet version. Update via Renovate. -->
   <ItemGroup>
     <PackageVersion Include="Compendium.Abstractions" Version="1.0.0" />
-    <PackageVersion Include="Compendium.Abstractions.AI" Version="1.0.0" />
-    <PackageVersion Include="Compendium.Core" Version="1.0.0" />
+    <PackageVersion Include="Compendium.Abstractions.AI" Version="1.0.1" />
+    <PackageVersion Include="Compendium.Core" Version="1.0.1" />
   </ItemGroup>
 
   <!-- Build-time tooling -->
@@ -17,7 +17,7 @@
 
   <!-- Production runtime -->
   <ItemGroup>
-    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.16" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />
